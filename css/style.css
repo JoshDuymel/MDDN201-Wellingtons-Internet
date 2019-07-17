@@ -5,9 +5,14 @@ body{
 	margin: 0px;
 }
 
+body>div:nth-child(odd){
+	background: #ddd;
+}
+
 .feature{
 	display: grid;
 	grid-template-columns: auto auto;
+	padding-bottom: 8vw;
 }
 
 a{
@@ -102,17 +107,16 @@ h2{
 .index{
 	display:grid;
 	grid-template-columns: auto auto;
-	margin: 8vw;
-	padding: 5vw;
+	padding: 10vw;
+	margin-top: 2vw;
 	grid-gap: 3vw;
 }
 
 .indexImage{
 	grid-area: 2 / 1 / 3 / 2 ;
 	width: 30vw;
-	margin-top: -6vw;
+	padding-top: 1vw;
 	padding-left: 2vw;
-	z-index: -1;
 }
 
 
@@ -130,7 +134,7 @@ h2{
 
 .indexText{
 	grid-area: 2 / 2 / 3 / 3 ;
-	padding: 6vw;
+	padding: 5vw;
 	margin-left: 3vw;
 }
 
