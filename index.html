@@ -4,151 +4,65 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>DUYMS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=DM+Sans|Roboto&display=swap" rel="stylesheet">
+
+	<title>DUYMS</title>
 </head>
 
 <body>
+	<div class='feature'>
 
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-<p>this is a test....</p>
+	<div class='leftBlock'>
+		<h1 class='leftTitle'>JOSH GOJAK</h1>
+	</div>
 
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
-	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
-	</nav>
-
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
-
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
-
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
-		</section>
-	</header>
-
-
-
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
+	<div class='mainBlock'>
+		<div class='mainHeader'>
+			<h1 class='mainHeader'>THE INTERNET OF WELLINGTON</h1>
 		</div>
 
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
+		<div class='featureText'>
+			<h2>Seeing Networks in Wellington City.</h2>
+			<p>Wellington's network infrastructure is a lot like the city itself: messy, sprawling, and at times near-incomprehensible.</p>
+			<a href='https://www.youtube.com/watch?v=XE_FPEFpHt4'>THE INTERNET</a>
 		</div>
 
-		<p>Here's a simple page using all of these elements</p>
-	</section>
-
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
-	</header>
-
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
+		<div>
+			<img class='featureImage' src='./img/camera.jpg'/>
 		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
+		<div id='logo'>
+			<img id='logo' src='img/logo.png'/>
 		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+	</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-	</section>
+	<div class='rightBlock'>
+		<a class='rightLink' href='http://seeingnetworks.in/nyc/'>THE ORIGINAL PAGE</a>
+	</div>
+
+</div>
+
+<div class='index'>
+
+	<div class='indexHeader'><h2>Wellington's solutions</h2></div>
+
+	<div class='indexImage'><img class='indexImage' src='img/img (6).jpg'/></div>
+
+	<div class='indexText'>
+		<h2>Physical & on-street</h2>
+		<p>Sometimes you'll see a manhole cover that is surrounded with colorful markings. Whenever a contractor or construction company plans to do street excavation, utility companies will mark out the location of their underground cables so that the contractor knows to watch out for them.</p>
+	</div>
+
+	<div class='indexIndex'>
+		<a href=''><img src='img/'/></a>
+		<a href=''><img src='img/'/></a>
+</div>
+
+</div>
 
 </body>
 
